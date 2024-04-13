@@ -1,0 +1,27 @@
+
+.main{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.top, .bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 15px 0 18px 0;
+}
+.top>black{
+  margin: 10px;
+}
+.bottom>button{
+  margin: 10px;
+}
+.black>p{
+  margin: 10px auto;
+  width: 50%;
+}
+.black, input, select, button{
+  width: 80%;
+}
+
